@@ -1,0 +1,2 @@
+# ipsj_cls_for_techrep
+情報処理学会研究報告用クラスファイル
