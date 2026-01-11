@@ -17,6 +17,7 @@
 \RequirePackage{color}
 \RequirePackage{luatexja}
 \RequirePackage{luatexja-compat}
+\RequirePackage{url}
 
 \newif\if@Proof \@Prooffalse%
 \DeclareOption{Proof}{\@Prooftrue}
@@ -5141,10 +5142,10 @@ Keywords:\hskip.5em%
 \if #11\relax
 入手先\\ \else%
 \fi
-\normalfont $\langle$\nobreak{#2}\nobreak$\rangle$}
+\normalfont $\langle$\url{#2}\nobreak$\rangle$}
 
 \def\@urlj#1{%
-\normalfont 入手先$\langle$\nobreak{#1}\nobreak$\rangle$}
+\normalfont 入手先$\langle$\url{#1}\nobreak$\rangle$}
 
 
 \def\urle{%
@@ -5161,12 +5162,11 @@ available \\ from \else%
 \if #12\relax
 available from \\ \else
 \fi\fi
-$\langle$\nobreak{#2}\nobreak$\rangle$}
+$\langle$\url{#2}\nobreak$\rangle$}
 
 
 \def\@urle#1{%
-\normalfont available from $\langle$\nobreak{#1}\nobreak$\rangle$}
-
+\normalfont available from $\langle$\url{#1}\nobreak$\rangle$}
 
 
 
