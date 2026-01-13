@@ -332,6 +332,8 @@
 
 \ProcessOptions\relax
 
+% Define \newblock command for bibliography
+\providecommand{\newblock}{\ }
 
 %% 
 \newdimen\h
